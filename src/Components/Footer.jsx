@@ -3,7 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 export default function Footer() {
     return (
         <>
-            <footer className="w-full bg-[#718096] body-font">
+            <footer className="w-full bg-[#718096] font-mono">
                 <div className="container md:px-5 md:py-8 p-4 mx-auto flex items-center justify-between md:flex-row flex-col">
                     <Link to="/" className="flex title-font font-medium items-center text-gray-900 md:mr-auto">
                         <svg fill="none" stroke="black" strokeLinecap="round" strokeLinejoin="round" strokeWidth="4" className="w-10 h-10 p-2 bg-white rounded-full" viewBox="0 0 24 24">

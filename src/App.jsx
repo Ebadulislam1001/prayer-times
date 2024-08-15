@@ -7,7 +7,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
-      <div className="w-full min-h-screen flex flex-col items-center justify-between">
+      <div className="m-0 p-0 min-h-screen flex flex-col items-center justify-between">
         <Header />
         <Routes>
           <Route path="/" element={<Homepage />} />
